@@ -38,6 +38,14 @@ persistir e consultar dados em um banco **SQLite**.
 poetry install
 poetry run python main.py
 ```
+## 💻 Exemplo de execução
+
+```
+$ poetry run python main.py
+(1, 'Rusty-Man', 'Tommy Sharp', 48)
+(2, 'Deadpond', 'Dive Wilson', None)
+(3, 'Spider-Boy', 'Pedro Parqueador', None)
+
 
 Isso cria o banco `database.db` (caso não exista), insere os registros de
 exemplo e executa uma consulta `SELECT * FROM hero;` imprimindo o resultado
